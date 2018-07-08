@@ -5,16 +5,36 @@
     <ClCompile Include="sample_1.c">
       <Filter>CodeSamples</Filter>
     </ClCompile>
-    <ClCompile Include="dcc.cpp" />
-    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="dcc.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="token.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CodeSamples">
       <UniqueIdentifier>{66bd6d5d-595d-4800-ad75-262fc3a8bd53}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{fd9dae1f-504b-4545-a9cf-b65e41300c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{ae8a7188-5ac9-49cb-b4f4-f7969df7ac75}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="dcc.h" />
-    <ClInclude Include="Logger.h" />
+    <ClInclude Include="dcc.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="token.h">
+      <Filter>Source</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
